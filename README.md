@@ -1,4 +1,4 @@
-# Datastraw Support CRM
+# Support CRM
 
 A full-stack customer support ticketing system built with **FastAPI**, **SQLite**, and **Vanilla JS + Tailwind CSS**.
 
@@ -7,7 +7,7 @@ A full-stack customer support ticketing system built with **FastAPI**, **SQLite*
 ## Project Structure
 
 ```
-datastraw-crm/
+support-crm/
 ├── venv/               ← Python virtual environment (not committed)
 ├── database.py         ← SQLAlchemy engine, session factory, get_db dependency
 ├── models.py           ← ORM table definitions (Ticket, Note)
@@ -155,3 +155,4 @@ def root():
 - Assigned agent per ticket with a team members table
 - Dashboard analytics (tickets over time, resolution rate, average response time)
 - Swap SQLite → PostgreSQL for production multi-user concurrency
+"# Customer-Support-Ticketing-CRM-System" 
